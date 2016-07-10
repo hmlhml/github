@@ -1,0 +1,292 @@
+html{
+	 font-family: Arial,Verdana,sans-serif!important 
+}
+@media screen and (min-width:320px){
+	html{
+		font-size: 53.3%!important;
+	}
+	
+}
+body{	
+	margin: 0;
+	height: auto;
+	background-color: #f4f4f4;
+	font-family: "Helvetica,Sana-serif";
+	color: #666;
+	}
+ul,li,p,h1,h2,h3,h4{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	color: #666;
+	text-decoration: none;
+
+}
+.bannerPart{
+	width: 100%;
+}
+.bannerPart img{
+	width: 100%;
+}
+.nav{
+	background: #fff;
+    border-bottom: .1rem solid #eaeaea;
+    overflow: hidden;
+    padding: 1.5rem 0;
+}
+.nav a{
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+.nav a img{
+	width: 5em;
+	margin: 0 auto;
+}
+.nav a span{
+	display: block;
+    font-size: 1.5rem;
+    margin-top: .7rem;
+}
+.first-new{
+	padding: 1.2rem 1.5rem;
+	overflow: hidden;
+	background-color: #fff;
+}
+.first-new .icon{
+	font-size: 1.2rem;
+    height: 1.6rem;
+    overflow: hidden;
+    width: 6.3rem;
+    float: left;
+}
+.first-new .icon img{
+	width: 75px;
+}
+.first-new .text{
+	font-size: 12px;
+	line-height: 16px;
+	width: 200px;
+	float: left;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.text .first-mark{
+	color: #f66;
+	padding: 0 0.5rem;
+	font-style: normal;
+}
+.text span{
+	line-height: 16px;
+	
+}
+/*掌上抢start*/
+.hot{
+	margin-top: 1.0rem;
+	background: #fff;
+}
+.hot-menu{
+	border-bottom: .1rem solid #eaeaea;
+    clear: both;
+    height: 3.8rem;
+    line-height: 3.8rem;
+    padding: 0 1.5rem;
+    position: relative;
+}
+.hot-menu .left{
+	float: left;
+	color: #f55;
+    display: inline-block;
+    font-size: 1.5rem;;
+}
+.hot-menu .center{
+	color: #222;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-left: .8rem;
+}
+.hot-menu .right{
+	color: #222;
+    font-size: 1.4rem;
+    position: absolute;
+    right: 1.5rem;
+    top: 0
+    
+}
+.hot-goods{
+	overflow: hidden;
+	padding: 8px 0;
+	border-bottom: .1rem solid #eaeaea;
+}
+.hot-goods a{
+	margin: 1.0rem 0;
+	width: 33.33%;
+	float: left;
+	border-right: 1px solid #f2f2f2;
+	text-align: center;
+	box-sizing:border-box;
+	overflow: hidden;
+}
+.hot-goods a:nth-child(3){
+
+	border-right: none;
+}
+.hot-goods a span{
+	display: block;
+}
+.hot-goods a .img{
+
+	display: block;
+	margin:0 .5rem;
+}
+.hot-goods img{
+	height: 9.5rem;
+    width: 9.5rem;
+}
+.hot-goods .title{
+	margin: .5rem .5rem 0;
+    color: #555;
+    display: block;
+    font-size: 1.3rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.hot-goods .price{
+	margin: .5rem .5rem 0;
+	color: #f55;
+	font-size: 1.4rem;
+}
+.hot-goods s{
+	color: #aaa;
+}
+/*掌上抢end*/
+/*广告图 start*/
+.ad a{
+	display: block;
+	font-size: 0;
+}
+.ad img{
+	width: 100%;
+	text-align: top;
+}
+/*广告图 end*/
+/*明星单品 start*/
+.floor-title{
+	color: #666;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    width: 100%;
+}
+.floor-title span{
+	color: #ccc;
+}
+.floorgood .list{
+	background: #fff;
+	border-bottom: .1rem solid #eaeaea;
+	overflow: hidden;
+}
+.floorgood .list li{
+	 width: 50%;
+	float: left;
+	border-right: .1rem solid #f1f1f1;
+    padding: 1.5rem 0 .7rem;
+    text-align: center;
+	box-sizing:border-box;
+	overflow: hidden;
+}
+.floorgood .list li:nth-child(2){
+	border-right:0;
+}
+.floorgood .list a{
+	background-color: #fff;
+	display: block;
+}
+.floorgood .list span{
+	display: block;
+}
+.floorgood span.tips{
+	border: .1rem solid #e1e1e1;
+    border-radius: 2.0rem;
+    display: inline-block;
+    margin: 0 2.0rem;
+    overflow: hidden;
+    padding: .3rem .9rem .3rem .4rem;
+    vertical-align: middle;
+}
+.floorgood .tips img{
+	float: left;
+    height: 1.7rem;
+    overflow: hidden;
+    width: 1.7rem;
+}
+.floorgood .tips em{
+	color: #222;
+    float: left;
+    font-style: normal;
+    font-size: 1.3rem;
+    height: 1.7rem;
+    line-height: 1.7rem;
+    margin-left: .5rem
+	}
+.floorgood .img{
+	display: block;
+    margin: 7px 10px 0;
+    position: relative;
+    text-align: center;
+}
+.floorgood .img img{
+	height: 15.0rem;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 15.0rem
+}
+.floorgood .title{
+	color: #555;
+    display: block;
+    font-size: 1.3rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    margin: .7rem .8rem 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.floorgood .price{
+	color: #f55;
+    display: block;
+    font-size: 1.4rem;
+    margin: .5rem .8rem 0;
+    text-align: center;
+
+}
+.floorgood .price s{
+	color: #aaa;
+    font-size: 1.0rem;
+    font-style: normal
+}
+.floorgood .price em{
+	background: #f66;
+    border-radius: .1rem;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.0rem;
+    margin-left: .5rem;
+    padding-top: .1rem;
+    padding-right: .2rem;
+    padding-left: .2rem;
+    text-indent: 0;
+    font-style: normal;
+     vertical-align: middle;
+}
+/*明星单品 end
