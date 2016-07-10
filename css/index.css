@@ -1,0 +1,242 @@
+body{
+		margin: 0;
+		width: 320px;
+		height: auto;
+		background-color: #f4f4f4;
+		margin: 0 auto;
+		font-family: "Helvetica,Sana-serif";
+		color: #666;
+		font-size: 12px;
+	}
+	ul,li,p,h1,h2,h3,h4{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	a{
+		color: #666;
+		text-decoration: none;
+
+	}
+	.bannerPart{
+		width: 100%;
+	}
+	.bannerPart img{
+		width: 100%;
+	}
+	.nav{
+		overflow: hidden;
+	    border-bottom: 1px solid #eaeaea;
+	    background-color: #fff;
+	}
+	.nav a{
+		width: 20%;
+		float: left;
+		text-align: center;
+		padding: 15px 0;
+	}
+	.nav a img{
+		width: 60px;
+		margin-bottom: 7px;
+	}
+	.nav a span{
+		font-size: 12px;
+	}
+	.first-new{
+		padding: 10px 13px;
+		overflow: hidden;
+		background-color: #fff;
+	}
+	.first-new .icon{
+		border-right: 1px solid #e1e1e1;
+		float: left;
+		padding-right: 5px;
+	}
+	.first-new .icon img{
+		width: 75px;
+	}
+	.first-new .text{
+		font-size: 12px;
+		line-height: 16px;
+		width: 200px;
+		float: left;
+		white-space:nowrap;
+		overflow: hidden;
+		text-overflow:ellipsis;
+	}
+	.text .first-mark{
+		color: #f66;
+		padding: 0 5px;
+		font-style: normal;
+	}
+	.text span{
+		line-height: 16px;
+		
+	}
+	/*掌上抢start*/
+	.hot{
+		margin: 10px 0; 
+		background: #fff;
+	}
+	.hot-menu{
+		padding: 0 15px;
+		border-bottom: 1px solid #eaeaea;
+		line-height: 38px;
+	}
+	.hot-menu .left{
+		float: left;
+		color: #f55;
+	    display: inline-block;
+	    font-size: 12px;
+	}
+	.hot-menu .center{
+		color: #222;
+	    font-size: 12px;
+	    margin-left: 8px;
+	    display: inline-block;
+	}
+	.hot-menu .right{
+		color: #222;
+	    font-size: 12px;
+	    margin-left: 8px;
+	    display: inline-block;
+	    
+	}
+	.hot-goods{
+		padding:0 8px;
+		overflow: hidden;
+	}
+	.hot-goods a{
+		width: 33.33%;
+		float: left;
+		border-right: 1px solid #f2f2f2;
+		text-align: center;
+		box-sizing:border-box;
+	}
+	.hot-goods a:nth-child(3){
+
+		border-right: none;
+	}
+	.hot-goods a span{
+		display: block;
+	}
+	.hot-goods a .img{
+
+		height: 116px;
+		width: 93px;
+		margin: 0 5px;
+	}
+	.hot-goods img{
+		width: 100%;
+	}
+	.hot-goods .title{
+		width: 93px;
+	    margin: 5px 5px 0;
+	    text-overflow:ellipsis;
+	    overflow: hidden;
+	    white-space: nowrap;
+	}
+	.hot-goods .price{
+		margin: 5px 5px 0;
+		color: #f55;
+	}
+	.hot-goods s{
+		color: #aaa;
+	}
+	/*掌上抢end*/
+	/*广告图 start*/
+	.ad a{
+		display: block;
+		font-size: 0;
+	}
+	.ad img{
+		width: 100%;
+		text-align: top;
+	}
+	/*广告图 end*/
+	/*明星单品 start*/
+	.floor-title{
+		line-height: 42px;
+		text-align: center;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: normal;
+	}
+	.floor-title span{
+		color: #ccc;
+	}
+	.floorgood .list{
+		background: #fff;
+    	border-bottom: 1px solid #eaeaea;
+	}
+	.floorgood .list li{
+		float: left;
+		box-sizing:border-box;
+	}
+	.floorgood .list li{
+		border-right: 1px solid #f1f1f1;
+	    padding: 15px 0 7px;
+	    text-align: center;
+	    width: 50%;
+	    overflow: hidden;
+	}
+	.floorgood .list li:nth-child(2){
+		border-right:0;
+	}
+	.floorgood .list a{
+		background-color: #fff;
+		display: block;
+	}
+	.floorgood .list span{
+		display: block;
+	}
+	.floorgood span.tips{
+		display: inline-block;
+		border: 1px solid #e1e1e1;
+	    border-radius: 20px;
+	    display: inline-block;
+	    margin: 0 2px;
+	    overflow: hidden;
+	    padding: 3px 9px 3px 4px;
+	    vertical-align: middle;
+	}
+	.floorgood .tips img{
+		float: left;
+		width: 20px;
+	}
+	.floorgood .tips em{
+		color: #222;
+	    float: left;
+	    font-style: normal;
+	    font-size: 13px;
+	    line-height: 20px;
+	    margin-left: 5px;
+		}
+	.floorgood .img{
+		display: block;
+	    margin: 7px 10px 0;
+	    position: relative;
+	    text-align: center;
+	}
+	.floorgood .img img{
+		width: 180px;
+	}
+	.floorgood .title{
+		color: #555;
+	    display: block;
+	    font-size:13px;
+	    line-height:16px;
+	    margin: 7px 8px 0;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	}
+	.floorgood .price{
+		color: #f55;
+	    display: block;
+	    font-size: 1.4rem;
+	    margin: .5rem .8rem 0;
+	    text-align: center;
+
+	}
+	/*明星单品 end*/
