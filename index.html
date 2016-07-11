@@ -5,17 +5,62 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	
 </head>
+<style>
+   
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    </style>
 <body>
 	<!-- banner start -->
-	<div class="bannerPart">
-		<div class="imgbox">
-			<a href=""><img src="images/1.png" alt=""></a>
-		</div>
-		<div class="anniu"></div>
-		<div class="leftBtn"></div>
-		<div class="righttBtn"></div>
-	</div>
+	  <div class="swiper-container bannerPart">
+        <div class="swiper-wrapper imgbox">
+            <div class="swiper-slide"><a href=""><img src="images/1.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide"><a href=""><img src="images/2.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide"><a href=""><img src="images/3.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide"><a href=""><img src="images/4.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide"><a href=""><img src="images/5.jpg" alt=""></a>
+            </div>
+            <div class="swiper-slide"><a href=""><img src="images/6.jpg" alt=""></a>
+            </div>
+            
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+    </div>
+
 	<!-- banner end -->
 	<!-- nav start -->
 	<div class="nav">
@@ -676,5 +721,76 @@
 		</ul>
 	</div>
 	<!--   充电设备   end -->
+	<a href="" class="more">点击查看更多商品>></a>
+	<!--footer start  -->
+	<div class="footer">
+		<div class="help">
+			<div class="helpItem">
+				<i>7</i>
+				<em>7天无理由退货</em>
+			</div>
+			<div class="helpItem">
+				<i>15</i>
+				<em>15天免费换货</em>
+			</div>
+			<div class="helpItem">
+				<i>包</i>
+				<em>满99元包邮</em>
+			</div>
+		</div>
+		<div class="number">
+			<p>
+				客服热线：
+				<a href="">400-6822-360</a> 
+				周一到周日 9:00-18:00
+			</p>
+			<p class="copyright">360商城©2013-2016 版权所有</p>
+		</div>	
+	</div>
+	<!--footer end  -->
+	<!-- menuBox start -->
+	<div class="menuBox">
+		<ul>
+			<li>
+				<a href="">
+					<i></i>
+					<span>首页</span>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<i></i>
+					<span>分类</span>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<i></i>
+					<span>购物车</span>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<i></i>
+					<span>我</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- menuBox end -->
 </body>
+<!-- <script src="js/jquery.js"></script> -->
+<script src="js/swiper.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+	// var swiper = new Swiper('.swiper-container', {
+ //        pagination: '.swiper-pagination',
+ //        nextButton: '.swiper-button-next',
+ //        prevButton: '.swiper-button-prev',
+ //        slidesPerView: 1,
+ //        paginationClickable: true,
+ //        spaceBetween: 30,
+ //        loop: true
+ //    });
+</script>
 </html>
